@@ -83,6 +83,31 @@ header {
     bottom: 1.6rem;
     max-width: 100%;
   }
+  
+  .title {
+    font-size: 1.8em !important;
+    padding-top: 0.8em !important;
+    padding-bottom: 1.2em !important;
+  }
+  
+  header {
+    height: auto !important;
+    min-height: 8em;
+  }
+  
+  .navli a {
+    margin: 0 0.8em !important;
+    font-size: 0.85em !important;
+  }
+  
+  .navli .iconfont {
+    display: none;
+  }
+  
+  .theme-toggle {
+    margin-left: 0.5em !important;
+    font-size: 1em !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -99,6 +124,12 @@ header {
 .navli {
   list-style: none;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.navli::-webkit-scrollbar {
+  display: none;
 }
 
 .navul {

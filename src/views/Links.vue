@@ -302,22 +302,56 @@ h2:hover {
 }
 
 @media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.8em !important;
+  }
+  
+  .subtitle {
+    font-size: 0.9em !important;
+    margin-bottom: 1.5em !important;
+  }
+  
   .friend-links {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 1em;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important;
+    gap: 1em !important;
   }
   
   .friend-card {
-    padding: 1em;
+    padding: 1.2em 0.8em !important;
   }
   
   .friend-card img {
-    width: 60px;
-    height: 60px;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  
+  .friend-card h3 {
+    font-size: 0.9em !important;
+  }
+  
+  .friend-card p {
+    font-size: 0.8em !important;
+    min-height: 2em !important;
   }
   
   .exchange-section {
-    padding: 1.5em;
+    padding: 1.5em 0 !important;
+    margin-top: 2em !important;
+  }
+  
+  .exchange-section h2 {
+    font-size: 1.5em !important;
+    margin-bottom: 1.5em !important;
+  }
+  
+  .exchange-section p {
+    font-size: 0.9em !important;
+  }
+  
+  .requirements li,
+  .my-info li {
+    padding: 0.6em 0 !important;
+    font-size: 0.85em !important;
   }
 }
 </style>

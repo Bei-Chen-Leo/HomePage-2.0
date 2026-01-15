@@ -121,8 +121,32 @@
 }
 
 @media screen and (max-width: 768px) {
+  .welcome h2 {
+    font-size: 1.8em !important;
+  }
+  
+  .welcome p {
+    font-size: 0.9em !important;
+  }
+  
   .content-section {
-    padding: 1em;
+    margin: 1.5em 0 !important;
+    padding: 1em 0 !important;
+  }
+  
+  .content-section h2 {
+    font-size: 1.5em !important;
+    margin-bottom: 1em !important;
+  }
+  
+  .content-section p {
+    font-size: 0.9em !important;
+  }
+  
+  .content-section ul li {
+    padding: 0.4em 0 !important;
+    padding-left: 1.2em !important;
+    font-size: 0.9em !important;
   }
 }
 </style>

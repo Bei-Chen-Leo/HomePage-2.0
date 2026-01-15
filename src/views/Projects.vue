@@ -229,4 +229,49 @@ h2:hover {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.8em !important;
+  }
+  
+  .subtitle {
+    font-size: 0.9em !important;
+    margin-bottom: 1.5em !important;
+  }
+  
+  .content-section {
+    margin: 1.5em 0 !important;
+    padding-top: 1em !important;
+  }
+  
+  .content-section h3 {
+    font-size: 1.2em !important;
+  }
+  
+  .content-section > p {
+    font-size: 0.9em !important;
+  }
+  
+  .project-list li {
+    padding: 1em 0 !important;
+  }
+  
+  .project-list li strong {
+    font-size: 1em !important;
+  }
+  
+  .project-list li p {
+    font-size: 0.85em !important;
+  }
+  
+  .coming-soon {
+    margin: 2em 0 0.5em 0 !important;
+    padding: 1.5em 0 !important;
+  }
+  
+  .coming-soon p {
+    font-size: 1em !important;
+  }
+}
 </style>

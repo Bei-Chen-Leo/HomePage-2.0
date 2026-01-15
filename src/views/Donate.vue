@@ -89,13 +89,28 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.8em !important;
+    margin-bottom: 1em !important;
+  }
+  
   .donate-images {
-    gap: 1em;
+    gap: 1em !important;
+    margin-top: 1em !important;
+  }
+  
+  .donate-card {
+    padding: 1em !important;
   }
   
   .donate-card img {
-    width: 150px;
-    height: 150px;
+    width: 150px !important;
+    height: 150px !important;
+  }
+  
+  .donate-card p {
+    margin-top: 1em !important;
+    font-size: 0.85em !important;
   }
 }
 </style>

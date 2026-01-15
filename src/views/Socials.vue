@@ -86,4 +86,25 @@ h2 {
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.8em !important;
+  }
+  
+  .subtitle {
+    font-size: 0.9em !important;
+    margin-bottom: 1.5em !important;
+  }
+  
+  .social-list li {
+    padding: 1em 0 !important;
+    font-size: 0.9em !important;
+  }
+  
+  .social-list li:hover {
+    padding-left: 0.5em !important;
+    transform: translateX(3px) !important;
+  }
+}
 </style>
