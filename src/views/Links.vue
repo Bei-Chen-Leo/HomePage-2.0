@@ -128,8 +128,19 @@ h2 {
   color: var(--text-primary);
   font-weight: 300;
   letter-spacing: -0.02em;
-  animation: fadeInUp 0.6s ease;
+  animation: fadeInUp 0.6s ease, gradientText 3s ease infinite;
   margin-bottom: 0.5em;
+  background: linear-gradient(90deg, var(--text-primary), var(--text-secondary), var(--text-primary));
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+h2:hover {
+  transform: translateY(-3px) scale(1.02);
 }
 
 .subtitle {
@@ -137,7 +148,14 @@ h2 {
   color: var(--text-tertiary);
   font-size: 0.95em;
   margin-bottom: 2em;
-  animation: fadeInUp 0.6s ease 0.1s both;
+  animation: fadeInUp 0.6s ease 0.1s both, breathe 2s ease-in-out infinite;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.subtitle:hover {
+  transform: translateY(-2px);
+  color: var(--text-secondary);
 }
 
 .friend-links {
@@ -262,6 +280,24 @@ h2 {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes gradientText {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes breathe {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
   }
 }
 
