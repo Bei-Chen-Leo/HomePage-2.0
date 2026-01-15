@@ -23,9 +23,9 @@
       <p>请先将本站添加到你的友链列表：</p>
       <ul class="my-info">
         <li>名称：北尘的小窝</li>
-        <li>链接：<a href="https://www.beichen.icu" target="_blank">beichen.icu</a></li>
+        <li>链接：<a href="https://www.beichen.icu" target="_blank">www.beichen.icu</a></li>
         <li>图标：<a href="https://www.beichen.icu/images/Favicon.webp" target="_blank">Favicon.webp</a></li>
-        <li>简介：梦想即是远航</li>
+        <li>简介：梦想即是远航！Dream is the voyage!</li>
       </ul>
       <p>添加完成后，请<router-link to="/socials">联系我</router-link>进行友链交换。</p>
     </div>
